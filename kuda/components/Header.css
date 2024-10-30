@@ -1,0 +1,86 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 5px 3px -3px #00000010;
+    position: fixed;
+    width: 100vw;
+
+    .logo{
+        position: relative;
+
+        
+        img{
+            position: absolute;
+            right: -70px;
+            top: -33px;
+            width: 100px;
+
+        }
+
+       
+
+
+    }
+
+    .links{
+        margin-right: 200px;
+        margin-bottom: 5px;
+      
+        a{
+            margin-right: 50px;
+            text-decoration: none;
+            color: rgb(64, 25, 109);
+            font-weight: 500;
+            font-size: medium;
+        
+    
+
+            img{
+                width: 10px;
+            
+            }
+        }
+
+       
+    }
+    
+
+  
+
+    .login{
+        position: relative;
+        margin-right: 100px;
+
+
+        a{
+            margin-right: 50px;
+            text-decoration: none;
+            color: rgb(64, 25, 109);
+            font-weight: 500;
+            font-size: medium;
+        }
+        
+        img{
+            position: absolute;
+            top: 5px;
+            width: 35px;
+            margin-left: 50px;
+        
+        
+        }
+
+        button{
+            margin-bottom: 5px;
+            width: 130px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(64, 25, 109);
+            color: white;
+            font-size: medium;
+            font-weight: 500;
+        }
+    }
+}

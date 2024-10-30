@@ -1,0 +1,52 @@
+
+.about{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    .aboutOne, .aboutTwo, .aboutThree, .aboutFour, .aboutFive, .aboutSix{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+
+        h2{
+            color: rgb(64, 25, 109);
+            font-size: 35px;
+            font-weight: 800;
+            margin-top: -1px;
+        }
+
+        p{
+            line-height: 1.5;
+        }
+
+        a{
+            color: rgb(64, 25, 109);
+            font-weight: 500;
+            font-size: medium;
+        img{
+            width: 10px;
+        }
+        }
+    }
+
+  img{
+    width: 500px;
+  }
+
+  .aboutTwo, .aboutThree, .aboutFour, .aboutFive, .aboutSix{
+   
+    .sub{
+        margin-top: 80px;
+    }
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(64, 25, 109);
+  }
+    
+}
